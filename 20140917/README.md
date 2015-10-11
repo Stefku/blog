@@ -13,7 +13,8 @@ is easy to forget a check to not null. Or more subtle, an API of an object could
 writing. If one is lucky then there will be other unit test that fails after changing the API. But if not, the bug is
 set.
  
-This project provides a way to verify that certain constraints are not violated when a mock has been called. It makes
+The project [mockito-precond-verifier](https://github.com/Stefku/mockito-precond-verifier) provides a way to verify that 
+certain constraints are not violated when a mock has been called. It makes
 use of parameter annotations with runtime retention. These annotations inspected and the calls to the mock will be
 validated with respect to these preconditions.
  
