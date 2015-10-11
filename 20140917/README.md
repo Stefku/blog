@@ -115,3 +115,6 @@ public void tearDown() {
     verifier.verifyConstraints(otherService);
 }
 ```
+
+To configure this every time is kind of unhandy. For production readyness it would be good to have this configured 
+oncy for a whole project.
